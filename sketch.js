@@ -16,7 +16,11 @@ function setup() {
 }
 
 function draw() {
- background(220);
+ background(0);
+
+ noFill()
+ stroke((89, 0, 255))
+ ellipse(mouseX, mouseY, 50)
 
    
   
